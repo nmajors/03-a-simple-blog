@@ -10,26 +10,21 @@ body {
 }
 
 main {
-  height: 300px;
+  margin: 0 auto;
+  height: 900px;
   width: 600px;
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: red;
-  positioning: relative;
 }
 
-div.sidebar{
-  height: 300px;
-  width: 60px;
+section.sidebar {
+  height: 100%;
+  width: 160px;
   background-color: blue;
-  positioning: absolute;
-  left: 50%;
-  right: 50%;
+  float: left;
 }
 
-div.content{
-  height: 300px;
-  width: 100px;
+section.content {
+  height: 100%;
+  width: 340px;
   background-color: yellow;
-  positioning: absolute;
+  float: left;
 }
