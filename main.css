@@ -1,0 +1,23 @@
+header {
+    height: 50px;
+    margin: 0;
+    background-color black;
+  }
+
+body {
+  margin: 0;
+  width: 600px;
+}
+
+main {
+  height: 300px;
+  width: 600px;
+  margin: 0;
+  background-color: red;
+}
+
+div.sidebar{
+  height: 300px;
+  width: 60px;
+  background-color: blue;
+}
