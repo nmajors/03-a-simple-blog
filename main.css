@@ -1,10 +1,12 @@
 header {
-    height: 50px;
-    margin: 0;
-    background-color: black;
+    height: 360px;
+    width: 100%;
+    margin: 20px;
+    background-image:url(http://www.nssl.noaa.gov/education/svrwx101/img/thunderstorm-1200x360.jpg);
   }
 
 body {
+  font-family: Helvetica;
   margin: 0
   width: 600px;
 }
@@ -17,14 +19,17 @@ main {
 
 section.sidebar {
   height: 100%;
-  width: 160px;
-  background-color: blue;
+  width: 230px;
   float: left;
+}
+
+section.sidebar img {
+  padding: 2px;
+  border: 1px solid #aaa;
 }
 
 section.content {
   height: 100%;
   width: 340px;
-  background-color: yellow;
   float: left;
 }
