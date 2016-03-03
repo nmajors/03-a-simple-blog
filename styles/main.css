@@ -1,0 +1,90 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  width: 100%;
+}
+header {
+  height: 360px;
+  width: 100%;
+  background: url(http://www.nssl.noaa.gov/education/svrwx101/img/thunderstorm-1200x360.jpg) no-repeat center;
+}
+main {
+  margin: 0 10% 0 25%;
+  height: 900px;
+  width: 75%;
+}
+section.sidebar {
+  margin-top: -75px;
+  height: 100%;
+  width: 15%;
+  min-width: 75px;
+  float: left;
+}
+section.sidebar img {
+  border: 5px solid #FFF;
+  width: 100%;
+  border-radius: 100%;
+}
+section.sidebar h3 {
+  margin-top: 10px;
+  font-size: .8rem;
+  text-transform: uppercase;
+  color: #666;
+}
+p: {
+  color: #999;
+  font-size: .8rem;
+}
+section.content {
+  height: 100%;
+  min-width: 10%;
+  max-width: 55%;
+  float: left;
+  margin-left: 7%;
+}
+section.content img {
+  width: 65%;
+  float: left;
+}
+#content-title {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  color: #333;
+}
+#author {
+  color: #666;
+  font-size: .8rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-bottom: 10px;
+}
+#author a {
+  text-decoration: none;
+  color: teal;
+}
+.connection-box {
+  width: 18%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: .7rem;
+  border: 1px solid #ddd;
+}
+.connection-box img {
+  width: 30px;
+  float: left;
+  padding: 5px;
+}
+.connection-title {
+  margin-top: 10px;
+}
+.connection-title a {
+  text-decoration: none;
+  color: #333;
+}
+.connection-title a:hover {
+  cursor: crosshair;
+  background-color: teal;
+}
+.connection-title a:visited {
+  color: palevioletred;
+}
